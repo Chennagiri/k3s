@@ -49,7 +49,7 @@ data:
       <meta charset="UTF-8">
     </head>
     <body>
-      <h1>Hello From CI/CD 🚀 </h1>
+      <h1>Hello World 🚀 </h1>
     </body>
     </html>
     
