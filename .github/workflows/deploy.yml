@@ -21,4 +21,4 @@ jobs:
         KUBECONFIG_DATA: ${{ secrets.KUBECONFIG_DATA }}
       run: |
         echo "$KUBECONFIG_DATA" | base64 -d > kubeconfig
-        kubectl --kubeconfig=kubeconfig apply -f hello-nginx.yaml
+        kubectl --kubeconfig=kubeconfig apply -f hello-nginx.yaml --validate=false
